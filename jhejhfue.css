@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.conten{
+	background-image: url(escritorio.jpg);
+	width: 100%;
+	height: 700px;
+    background-size: cover;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.conten:before{
+content: "";
+width: 100%;
+height: 100%;
+background-color: white;
+position: absolute;
+opacity: 0.0;
+}
+
+.content h1, h4{
+	position: relative;
+
+}
+
+
+
